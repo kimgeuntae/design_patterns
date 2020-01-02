@@ -1,0 +1,24 @@
+*********** 전략 패턴 ***********
+
+날짜 : 2019.11.01
+작성자 : 김근태
+패턴 이름 : 전략 패턴 - Strategy Pattern
+패턴 특징 : 각각의 알고리즘(클래스)를 캡슐화 하여 구조의 변화 없이 서로 교환해서 사용할 수 있는 패턴
+패턴 장점 :
+1) 코드 중복 방지
+2) 확장성(신규 클래스 추가) 및 알고리즘 변경이 용이하다.
+
+*********** 전략 패턴 ***********
+
+
+****** Strategy Pattern ******
+
+Date : 2019.11.01
+Name : kgnTay
+Pattern name : Strategy Pattern
+Explanation : It can switch capsules(class) with out structure change.
+Advantage :
+1) prevention code overlap
+2) good expandability - easy add class and change algorithm.
+
+****** Strategy Pattern ******
