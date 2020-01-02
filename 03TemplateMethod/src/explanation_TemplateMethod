@@ -1,0 +1,38 @@
+*********** 탬플릿 메소드 패턴 ***********
+
+날짜 : 2019.11.01
+작성자 : 김근태
+패턴 이름 : 탬플릿 메소드 패턴 - Template Method Pattern
+패턴 설명 : 추상 클래스(Abst)에서 알고리즘의 구조를 메소드에 정의하고 하위 클래스(default)에서 알고리즘 구조의 변경없이 알고리즘을 재정의 하는 패턴
+패턴 특징 :
+1) 구현하려는 알고리즘이 일정한 프로세스가 있다.
+2) 구현하려는 알고리즘이 변경 가능성이 있다.
+패턴 장점 :
+1) 추상 클래스에 구조를 정의하고 하위 클래스에서 재정의하여 구조 변경없이 사용할 수 있다.
+2) 공통적인 프로세스를 묶을 수 있다.
+예제 설명 :
+1) 알고리즘을 여러 단계로 나눈다. (복호화 -> 인증 -> 권한 -> 접속 으로 단계를 나눴다.)
+2) 나눠진 알고리즘의 단계를 메소드로 선언한다. (Abst - doSecurity , authentication , authorization , connection 추상 클래스로 각 메소드를 선언했다.)
+3) 알고리즘을 수행할 템플릿 메소드를 만든다. (Abst - requestConnection 리퀘스트 메소드로 각 단계 알고리즘을 수행하는 프로세스를 만들었다.)
+4) 하위 클래스에서 나눠진 메소드들을 구현한다. (Default - Abst extends 하여 각 메소드를 재정의 하여 구현했다.)
+
+*********** 탬플릿 메소드 패턴 ***********
+
+
+****** Template Method Pattern ******
+
+Date : 2019.11.01
+Name : kgnTay
+Pattern name : Template Method Pattern
+Explanation Pattern : Default extends Abst and no change structure.
+Advantage :
+1) no change Abst structure from Default.
+2) It can combine Methods
+
+Explanation example :
+1) GameConnection should do 4 algorithms methods (Decode , authentication , authorization , connection).
+2) Define 4 abstract methods (Decode , authentication , authorization , connection).
+3) RequestConnection has step with Decode , authentication , authorization , connection.
+4) Default class extends AbstGameConnection and reDefine 4 methods (Decode , authentication , authorization , connection).
+
+****** Template Method Pattern ******
