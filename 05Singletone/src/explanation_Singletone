@@ -1,0 +1,35 @@
+*********** 싱글톤 패턴 ***********
+
+날짜 : 2019.11.03
+작성자 : 김근태
+패턴 이름 : 싱글톤 패턴 - Singleton Pattern
+패턴 설명 : 하나만 생성해야할 객체를 위한 패턴
+패턴 특징 : 
+1) 하나의 객체만 생성하여 그것을 공유 할 수 있다.
+
+패턴 장점 :
+1) 하나만 생성하도록 구현 할 수 있다.
+2) 인스턴스를 하나만 만들도록 하고 그것을 공유하게 만든다.
+
+예제 설명 :
+1) SystemSpeaker instance 하나만 생성한다.
+2) 스피커가 복사 되어도 instance 주소값은 동일 하다.
+
+*********** 싱글톤 패턴 ***********
+
+
+****** Singleton Pattern ******
+
+Date : 2019.11.03
+Name : kgnTay
+Pattern name : Singleton Pattern
+Explanation Pattern : It for object that need to be created only one.
+Advantage : 
+1) No make more than one.
+2) Share one object.
+
+Explanation example :
+1) Only one SystemSpeaker instance(static).
+2) If that instance copy, They have same address.
+
+****** Singleton Pattern ******
