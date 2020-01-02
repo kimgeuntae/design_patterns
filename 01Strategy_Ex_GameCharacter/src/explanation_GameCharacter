@@ -1,0 +1,22 @@
+*********** 전략 패턴 예제 ***********
+
+날짜 : 2019.11.01
+작성자 : 김근태
+패턴 이름 : 전략 패턴 - Strategy Pattern
+예제 설명 :
+1) 각각의 무기 클래스가 weapon을 implements 한다.
+2) Main 에서 GameCharacter 가 setWeapon 으로 각각의 클래스를 받으면서 무기를 변경하는 방식
+
+*********** 전략 패턴 예제 ***********
+
+
+****** EX Strategy Pattern ******
+
+Date : 2019.11.01
+Name : kgnTay
+Pattern name : Strategy Pattern
+Explanation :
+1) Knife, Sword, Ax get implements Weapon.
+2) The Main class can change Weapon with GameCharacter's setWeapon.
+
+****** Strategy Pattern ******
