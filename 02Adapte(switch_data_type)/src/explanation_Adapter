@@ -1,0 +1,36 @@
+*********** 어댑터 패턴 ***********
+
+날짜 : 2019.11.01
+작성자 : 김근태
+패턴 이름 : 어댑터 패턴 - Adapter Pattern
+패턴 특징 : 연관성 없는 두 객체를 묶는 패턴
+패턴 장점 :
+1) 관계가 없는 인터페이스를 같이 사용 가능
+2) 클래스 재활용성 증가
+예제 설명 :
+1) 2배, 1/2 함수가 있는 Math 라이브러리가 정의 되어있다.
+2) Adapterimplement 의 twiceOf 와 halfOf 는 인자값과 return 값이 float 이다.
+3) Math의 함수들은 인자값이 double 이다.
+4) float 을 double 로 변경 후 Math 로 보내고, 받은 값을 float 으로 변경하여 리턴한다.
+
+*********** 어댑터 패턴 ***********
+
+
+****** Adapter Pattern ******
+
+Date : 2019.11.01
+Name : kgnTay
+Pattern name : Adapter Pattern
+Explanation Pattern : It can use different type classes together.
+Advantage :
+1) can use different type classes
+2) good recycle
+
+Explanation example :
+1) Method twoTime , half are in Math Class.
+2) Adapterimplement's twiceOf and halfOf are get Float and return float.
+3) Math class methods are get Double and return Double.
+4) Get Math(Change Float to Double) and return (Double).
+5) After Math methods, Adapterimplement's methods return(Change Double to Float).
+
+****** Adapter Pattern ******
